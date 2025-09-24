@@ -1,0 +1,7 @@
+print("/ : chia lấy số thực")
+print("// : chia lấy phần nguyên")
+print("% : chia lấy phần dư")
+print("** : lũy thừa")
+print("and : toán tử logic AND")
+print("or : toán tử logic OR")
+print("is : so sánh định danh đối tượng")

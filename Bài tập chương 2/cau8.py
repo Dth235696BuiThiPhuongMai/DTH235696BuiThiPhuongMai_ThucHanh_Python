@@ -1,0 +1,5 @@
+print("Các loại lỗi trong Python:")
+print("1. Lỗi cú pháp (SyntaxError): sai quy tắc ngôn ngữ.")
+print("2. Lỗi logic: chương trình chạy nhưng cho kết quả sai.")
+print("3. Lỗi runtime (Exception): lỗi xảy ra khi chạy, ví dụ chia cho 0.")
+print("Cách bắt lỗi: dùng khối try - except để xử lý ngoại lệ.")

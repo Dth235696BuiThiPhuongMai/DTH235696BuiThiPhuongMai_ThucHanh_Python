@@ -1,0 +1,1 @@
+print("Python hỗ trợ các kiểu dữ liệu cơ bản: số (int, float, complex), chuỗi (str), logic (bool), danh sách/tuple/range, tập hợp (set, frozenset), từ điển (dict) và NoneType. ")
