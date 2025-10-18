@@ -1,0 +1,17 @@
+from tkinter import *
+parent = Tk()
+name =Label(parent, text = 'Name').grid(row = 0, column =0)
+e1 = Entry(parent).grid(row = 0, column =1)
+password = Label(parent, text = 'Password').grid(row = 1, column =0)
+e2 = Entry(parent).grid(row = 1, column = 1)
+submit = Button (parent, text = 'Submit').grid(row = 4, column =1)
+parent.mainloop()
+def makecenter(root):
+    root.update_idletasks()
+    w = root.winfo_screenwidth()
+    h = root.winfo_screenheight()
+    x = (root.winfo_screenwidth() // 2) - (w // 2)
+    y = (root)
+    root.geometry('{}x{}+{}+{}'.format(w, h, x, y))
+    makecenter(parent)
+    root.mainloop()
